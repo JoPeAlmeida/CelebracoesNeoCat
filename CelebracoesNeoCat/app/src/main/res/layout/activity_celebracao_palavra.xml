@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_celebracao_palavra"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="2"
+    android:background="@drawable/inside_border"
+    tools:context="almeida.joao.neocat.celebracoesneocat.CelebracaoPalavra">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+        <TextView
+            android:id="@+id/titleCelbPalavra"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:text="Celebração da Palavra"
+            android:textSize="20dp"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/admAmbTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Admonição Ambiental"/>
+
+        <EditText
+            android:id="@+id/admAmbText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/cantEntTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Cântico Entrada"/>
+
+        <EditText
+            android:id="@+id/cantEntText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/prLeitTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="1ª Leitura"/>
+
+        <EditText
+            android:id="@+id/prLeitText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/prAdmTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Admonição"/>
+
+        <EditText
+            android:id="@+id/prAdmText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/prCantTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Cântico"/>
+
+        <EditText
+            android:id="@+id/prCantText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/segLeitTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="2ª Leitura"/>
+
+        <EditText
+            android:id="@+id/segLeitText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/segAdmTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Admonição"/>
+
+        <EditText
+            android:id="@+id/segAdmText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/segCantTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Cântico"/>
+
+        <EditText
+            android:id="@+id/segCantText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/terLeitTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="3ª Leitura"/>
+
+        <EditText
+            android:id="@+id/terLeitText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/terAdmTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Admonição"/>
+
+        <EditText
+            android:id="@+id/terAdmText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/terCantTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Cântico"/>
+
+        <EditText
+            android:id="@+id/terCantText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/envTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Evangelho"/>
+
+        <EditText
+            android:id="@+id/envText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/envAdmTitle"
+            android:layout_weight="0.4"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Admonição"/>
+
+        <EditText
+            android:id="@+id/envAdmText"
+            android:layout_weight="0.6"
+            android:layout_height="25dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border">
+
+        <TextView
+            android:id="@+id/cantFinalTitle"
+            android:layout_weight="0.4"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:text="Cântico Final"/>
+
+        <EditText
+            android:id="@+id/cantFinalText"
+            android:layout_weight="0.6"
+            android:layout_height="35dp"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:background="@drawable/border"
+            android:layout_gravity="center"/>
+    </TableRow>
+    <Button
+        android:id="@+id/btnCelbPalavra"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Enviar"
+        android:onClick="enviarCelb"/>
+</TableLayout>
