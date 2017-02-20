@@ -5,7 +5,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:weightSum="2"
-    android:background="@drawable/inside_border"
+    android:background="@color/white"
     tools:context="almeida.joao.neocat.celebracoesneocat.CelebracaoPalavra">
 
     <TableRow
