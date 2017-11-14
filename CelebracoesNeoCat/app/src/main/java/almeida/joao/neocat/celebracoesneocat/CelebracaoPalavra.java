@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.text.Html;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TableLayout;
@@ -45,7 +46,7 @@ public class CelebracaoPalavra extends Activity {
         String[] emails = {"joaopedrolealalmeida@gmail.com"};
         shareIntent.putExtra(Intent.EXTRA_EMAIL, emails);
         shareIntent.putExtra(Intent.EXTRA_SUBJECT, "celebrações test");
-        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, "something"); //Html.fromHtml(body));
+        shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, Html.fromHtml(body, 0)); //Html.fromHtml(body));
         shareIntent.putExtra(Intent.EXTRA_STREAM, contentUri);
         try {
             startActivity(Intent.createChooser(shareIntent, "Enviar email..."));
